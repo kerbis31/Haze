@@ -39,7 +39,7 @@ class DashboardLogin(Interact):
 
         Interact.ie(self,element=Interact.xpath(self,ch_bt.NEXT_BUTTON,self.driver_auth,self.wait,what_to_wait_for=ch_bt.NEXT_BUTTON), is_sent_keys=False,value=None)
 
-        Interact.ie(self,element=Interact.xpath(self, ch_bt.PASSWORD_GOOGLE, self.driver_auth,self.wait,what_to_wait_for=ch_bt.PASSWORD_NEXT_BUTTON), is_sent_keys=True, value='VroomVroom%')
+        Interact.ie(self,element=Interact.xpath(self, ch_bt.PASSWORD_GOOGLE, self.driver_auth,self.wait,what_to_wait_for=ch_bt.PASSWORD_NEXT_BUTTON), is_sent_keys=True, value='%')
 
         Interact.ie(self,element=Interact.xpath(self,ch_bt.PASSWORD_NEXT_BUTTON,self.driver_auth,self.wait,what_to_wait_for=ch_bt.PASSWORD_NEXT_BUTTON), is_sent_keys=False,value=None)
 
