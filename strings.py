@@ -43,3 +43,6 @@ class CH_XPATH:
     PASSWORD_NEXT_BUTTON = '//*[@id="passwordNext"]/content/span'
     DASHBOARD_VIEW_ALL_BUTTON = '//*[@id="container"]/div/div/main/div[2]/div[2]/div[2]/div[3]'
     DASHBOARD_CREATE_POLICY_BUTTON = '//*[@id="container"]/div/div/main/div[1]/button[2]'
+    FIRST_TEAM_BUTTON  = '//*[@id="container"]/div/div/main/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[2]/div/a'
+    NAME_OF_POLICY_OWNER_AFTER_POLICY_CREATED = '//*[@id="container"]/div/div/main/div/div[2]/div[2]/div[2]/div/div[2]/div[4]'
+    FORGOT_PASSWORD_GOOGLE_LOGIN_BUTTON = '//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/content/section/div/content/div[3]/button'
